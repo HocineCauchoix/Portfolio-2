@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Port.</span>Folio</a>
+    
+        <nav class="navbar">
+            <a href="#home" class="active">Portfolio</a>
+            <a href="#about-me">About me</a>
+            <a href="#projets">Projets</a>
+            <a href="#contact-me">Me contacter</a>
+        </nav>
+
+        <a href="#" class="contact">Contact Me</a>
+    </header>
+
+    <section class="home" id="home">
+            <div class="home-content">
+                <h3>Bonjour</h3>
+
+                <h1>Je suis <span>Hocine Cauchoix</span> un aspirant Archiect Cloud</h1>
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam tenetur possimus mollitia quo maiores exercitationem odit ipsam quidem, atque omnis voluptatum praesentium explicabo unde necessitatibus consectetur doloremque repellendus et modi.</p>
+            
+                <div class="btn-box">
+                    <a class="btn-1" href="#footer">Contact</a>
+                    <a href="img/CV.pdf" class="btn-2" download>MonCV</a>
+                </div>
+            </div>
+            <div class="img-box">
+                <img src="img/photoCV.png" alt="">
+            </div>
+    </section>
+
+    <section class="about" id="about-me">
+
+        <div class="about-img">
+            <img src="img/photoCV.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Architect<span> Informatique</span></h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid veniam incidunt repellendus soluta quod? Minus voluptatibus quidem a placeat perferendis, ea, tempora incidunt, vel qui atque sed dolores accusamus autem? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla dolor reprehenderit libero repellat at dolores quam unde eaque, repellendus ipsum possimus aspernatur, sed consectetur autem magni dolorem voluptate est perspiciatis.</p>
+            <a href="#" class="btn-2">Experience</a>
+        </div>
+    </section>
+
+    <section class="projets" id="projets">
+        <h3 class="heading_about">Mes <span>Projets</span></h3>
+
+        <div class="container_projet">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="content_projet">
+                            <div class="image_projet">
+                                <div class="img1_projet"></div>
+                            </div>
+                            <div class="projet_cart">
+                                <p class="desc_projet"><span class="icon_projet"><i class="fa-brands icon_social_about fa-github"></i></span>
+                                    <a href="https://github.com/HocineCauchoix/ProjetChallengeJS" target="_blank">Lien vers le projet</a>
+                                </p>
+                                <div class="social_icon_container_projet">
+
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                                </div>
+                            </div>
+                            <h5 class="heading_content_projet">Projet javascript avec système de session php</h5>
+                            <p class="date_projet">Last version : 09/23</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="content_projet">
+                            <div class="image_projet">
+                                <div class="img2_projet"></div>
+                            </div>
+                            <div class="projet_cart">
+                                <p class="desc_projet"><span class="icon_projet"><i class="fa-brands icon_social_about fa-github"></i></span>
+                                    <a href="https://github.com/HocineCauchoix/Forum" target="_blank">Lien vers le projet</a>
+                                </p>
+                                <div class="social_icon_container_projet">
+
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                                </div>
+                            </div>
+                            <h5 class="heading_content_projet">Projet Forum en SQL et Golang</h5>
+                            <p class="date_projet">Last version : 05/23</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="content_projet">
+                            <div class="image_projet">
+                                <div class="img3_projet"></div>
+                            </div>
+                            <div class="projet_cart">
+                                <p class="desc_projet"><span class="icon_projet"><i class="fa-brands icon_social_about fa-github"></i></span>
+                                    <a href="#" target="_blank">Lien vers le projet</a>
+                                </p>
+                                <div class="social_icon_container_projet">
+
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                                </div>
+                            </div>
+                            <h5 class="heading_content_projet">Création et gestion de l'inventaire d'un parc informatique d'une PME ~150 utilisateurs </h5>
+                            <p class="date_projet">Last version : En cours</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form" id="contact-me">
+        <h2 class="contact-me">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Nom complet">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Num. de Téléphone">
+                <input type="email" placeholder="Sujet">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Envoie Message" class="btn-2">
+        </form>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="social">
+            <a href="https://github.com/HocineCauchoix"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/hocine-cauchoix/"><i class='bx bxl-linkedin-square' ></i></a>
+            <a href="https://www.instagram.com/hocine_chx/"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://discord.com/users/hocinedelmahmoud"><i class='bx bxl-discord' ></i></a>
+        </div>    
+            <ul class="list">
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+                <li>
+                    <a href="#">Experience</a>
+                </li>
+                <li>
+                    <a href="#">About Me</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+            </ul>
+            <p class="copyright">@ 2024 Hocine | All Rights Reserved</p>
+    </footer>
+</body>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</html>
